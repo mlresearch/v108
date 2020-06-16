@@ -1,0 +1,64 @@
+---
+booktitle: Proceedings of the Twenty Third International Conference on Artificial
+  Intelligence and Statistics
+shortname: AISTATS
+year: '2020'
+volume: 108
+start: 2020-08-26
+end: 2020-08-28
+published: 2020-06-03
+url: http://proceedings.mlr.press
+layout: proceedings
+series: Proceedings of Machine Learning Research
+id: AISTATS2020
+month: 0
+cycles: false
+bibtex_editor: Chiappa, Silvia and Calandra, Roberto
+editor:
+- given: Silvia
+  family: Chiappa
+- given: Roberto
+  family: Calandra
+title: Proceedings of Machine Learning Research
+description: |
+  Proceedings of the Twenty Third International Conference on Artificial Intelligence and Statistics
+    Held in Online on 26-28 August 2020
+
+  Published as Volume 108 by the Proceedings of Machine Learning Research on 03 June 2020.
+
+  Volume Edited by:
+    Silvia Chiappa
+    Roberto Calandra
+
+  Series Editors:
+    Neil D. Lawrence
+    Mark Reid
+date_str: 26--28 Aug
+baseurl: "/v108"
+twitter_username: MLResearchPress
+github_username: mlresearch
+markdown: kramdown
+permalink: "/:title.html"
+github:
+  edit: true
+  repository: v108
+display:
+  copy_button:
+    bibtex: true
+    endnote: true
+    apa: true
+  comments: false
+email: ''
+conference:
+  name: International Conference on Artificial Intelligence and Statistics
+  url: 
+  location: Online
+  dates:
+  - 2020-08-26
+  - 2020-08-27
+  - 2020-08-28
+analytics:
+  google:
+    tracking_id: UA-92432422-1
+# Site settings
+# Auto generated from /Users/neil/mlresearch/v108/aistats20.bib
