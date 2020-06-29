@@ -24,12 +24,12 @@ lastpage: 4291
 page: 4281-4291
 order: 4281
 cycles: false
-bibtex_author: Aadirupa Saha, Bangalore) and Aditya Gopalan, Bangalore)
+bibtex_author: Saha, Aadirupa and Gopalan, Aditya
 author:
-- given: Bangalore)
-  family: Aadirupa Saha
-- given: Bangalore)
-  family: Aditya Gopalan
+- given: Aadirupa
+  family: Saha
+- given: Aditya
+  family: Gopalan
 date: 2020-06-03
 address: 
 publisher: PMLR
