@@ -24,10 +24,18 @@ lastpage: 2763
 page: 2753-2763
 order: 2753
 cycles: false
-bibtex_author: Pillaud-Vivien, Loucas
+bibtex_author: Pillaud-Vivien, Loucas and Bach, Francis and Lelièvre, Tony and Rudi, Alessandro and Stoltz, Gabriel 
 author:
 - given: Loucas
   family: Pillaud-Vivien
+- given: Francis
+  family: Bach
+- given: Tony
+  family: Lelièvre
+- given: Alessandro
+  family: Rudi
+- given: Gabriel
+  family: Stoltz
 date: 2020-06-03
 address: 
 publisher: PMLR

@@ -20,9 +20,9 @@
 }
 
 @InProceedings{sakaue20a,
-     title =    {Guarantees of Stochastic Greedy Algorithms for Non-monotone Submodular Maximization},
+     title =    {Guarantees of Stochastic Greedy Algorithms for Non-monotone Submodular Maximization with Cardinality Constraint},
      author =   {Shinsaku Sakaue},
-     pages =    {11--21},
+     pages =    {11--21},at
      abstract = {Submodular maximization with a cardinality constraint can model various problems, and those problems are often very large in practice. For the case where objective functions are monotone, many fast approximation algorithms have been developed. The stochastic greedy algorithm (SG) is one such algorithm, which is widely used thanks to its simplicity, efficiency, and high empirical performance. However, its approximation guarantee has been proved only for monotone objective functions. When it comes to non-monotone objective functions, existing approximation algorithms are inefficient relative to the fast algorithms developed for the case of monotone objectives. In this paper, we prove that SG (with slight modification) can achieve almost $1/4$-approximation guarantees in expectation in linear time even if objective functions are non-monotone. Our result provides a constant-factor approximation algorithm with the fewest oracle queries for non-monotone submodular maximization with a cardinality constraint. Experiments validate the performance of (modified) SG.}
 }
 
@@ -490,7 +490,7 @@
 
 @InProceedings{cisneros20,
      title =    {Distributionally Robust Formulation and Model Selection for the Graphical Lasso},
-     author =   {Pedro Cisneros and Alexander Petersen and Sang-Yun Oh},
+     author =   {Pedro Cisneros-Velarde and Alexander Petersen and Sang-Yun Oh},
      pages =    {756--765},
      abstract = {Building on a recent framework for distributionally robust optimization, we consider inverse covariance matrix estimation for multivariate data. A novel notion of Wasserstein ambiguity set is provided that is specifically tailored to this problem, leading to a tractable class of regularized estimators. Penalized likelihood estimators for Gaussian data, specifically the graphical lasso estimator, are special cases. Consequently, a direction connection is made between the radius of the Wasserstein ambiguity and the regularization parameter, so that the level of robustness of the estimator is shown to correspond to the level of confidence with which the ambiguity set contains a distribution with the population covariance. A unique feature of the formulation is that the radius can be expressed in closed-form as a function of the ordinary sample covariance matrix. Taking advantage of this finding, a simple algorithm is developed to determine a regularization parameter for graphical lasso, using only the bootstrapped sample covariance matrices, rendering computationally expensive repeated evaluation of the graphical lasso algorithm unnecessary. Alternatively, the distributionally robust formulation can also quantify the robustness of the corresponding estimator if one uses an off-the-shelf method such as cross-validation. Finally, a numerical study is performed to analyze the robustness of the proposed method relative to other automated tuning procedures used in practice.}
 }
@@ -1778,7 +1778,7 @@
 
 @InProceedings{pillaud-vivien20,
      title =    {Statistical Estimation of the Poincar\'e constant and Application to Sampling Multimodal Distributions},
-     author =   {Loucas Pillaud-Vivien},
+     author =   {Loucas Pillaud-Vivien and Francis Bach and Tony Lelièvre and Alessandro rudi and Gabriel Stoltz},
      pages =    {2753--2763},
      abstract = {Poincar\'e inequalities are ubiquitous in probability and analysis and have various applications in statistics (concentration of measure, rate of convergence of Markov chains). The Poincar\'e constant, for which the inequality is tight, is related to the typical convergence rate of diffusions to their equilibrium measure. In this paper, we show both theoretically and experimentally that, given sufficiently many samples of a measure, we can estimate its Poincar\'e constant. As a by-product of the estimation of the Poincar\'e constant, we derive an algorithm that captures a low dimensional representation of the data by finding directions which are difficult to sample. These directions are of crucial importance for sampling or in fields like molecular dynamics, where they are called reaction coordinates. Their knowledge can leverage, with a simple conditioning step, computational bottlenecks by using importance sampling techniques.}
 }
@@ -2765,7 +2765,7 @@
 
 @InProceedings{saha20,
      title =    {Best-item Learning in Random Utility Models with Subset Choices},
-     author =   {Aadirupa Saha, Bangalore) and Aditya Gopalan, Bangalore)},
+     author =   {Aadirupa Saha and Aditya Gopalan},
      pages =    {4281--4291},
      abstract = {We consider the problem of PAC learning the most valuable item from a pool of $n$ items using sequential, adaptively chosen plays of subsets of $k$ items, when, upon playing a subset, the learner receives relative feedback sampled according to a general Random Utility Model (RUM) with independent noise perturbations to the latent item utilities. We identify a new property of such a RUM, termed the minimum advantage, that helps in characterizing the complexity of separating pairs of items based on their relative win/loss empirical counts, and can be bounded as a function of the noise distribution alone. We give a learning algorithm for general RUMs, based on pairwise relative counts of items and hierarchical elimination, along with a new PAC sample complexity guarantee of $O(\frac{n}{c^2\epsilon^2} \log \frac{k}{\delta})$ rounds to identify an $\epsilon$-optimal item with confidence $1-\delta$, when the worst case pairwise advantage in the RUM has sensitivity at least $c$ to the parameter gaps of items. Fundamental lower bounds on PAC sample complexity show that this is near-optimal in terms of its dependence on $n,k$ and $c$. }
 }
