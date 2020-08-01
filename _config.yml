@@ -8,6 +8,8 @@ start: 2020-08-26
 end: 2020-08-28
 published: 2020-06-03
 url: http://proceedings.mlr.press
+author:
+  name: PMLR
 layout: proceedings
 series: Proceedings of Machine Learning Research
 issn: 2640-3498
