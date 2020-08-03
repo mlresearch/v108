@@ -43,6 +43,8 @@ github_username: mlresearch
 markdown: kramdown
 style: pmlr
 plugins:
+- jekyll-feed
+- jekyll-seo-tag
 - jekyll-remote-theme
 remote_theme: lawrennd/proceedings
 permalink: "/:title.html"
