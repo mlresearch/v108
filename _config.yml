@@ -11,6 +11,7 @@ url: http://proceedings.mlr.press
 author:
   name: PMLR
 layout: proceedings
+publisher: PMLR
 series: Proceedings of Machine Learning Research
 issn: 2640-3498
 id: AISTATS2020
