@@ -1,6 +1,7 @@
 ---
 booktitle: Proceedings of the Twenty Third International Conference on Artificial
   Intelligence and Statistics
+orig_bibfile: "/Users/neil/mlresearch/bibtex.bib"
 shortname: AISTATS
 year: '2020'
 volume: 108
@@ -42,6 +43,10 @@ baseurl: "/v108"
 twitter_username: MLResearchPress
 github_username: mlresearch
 markdown: kramdown
+exclude:
+- README.md
+- Gemfile
+- ".gitignore"
 style: pmlr
 plugins:
 - jekyll-feed
@@ -70,6 +75,5 @@ conference:
 analytics:
   google:
     tracking_id: UA-92432422-1
-orig_bibfile: "/Users/neil/mlresearch/bibtex.bib"
 # Site settings
 # Original source:  /Users/neil/mlresearch/bibtex.bib
