@@ -1,6 +1,7 @@
 ---
 booktitle: Proceedings of the Twenty Third International Conference on Artificial
   Intelligence and Statistics
+orig_bibfile: "/Users/neil/mlresearch/bibtex.bib"
 shortname: AISTATS
 year: '2020'
 volume: 108
@@ -8,8 +9,12 @@ start: 2020-08-26
 end: 2020-08-28
 published: 2020-06-03
 url: http://proceedings.mlr.press
+author:
+  name: PMLR
 layout: proceedings
+publisher: PMLR
 series: Proceedings of Machine Learning Research
+issn: 2640-3498
 id: AISTATS2020
 month: 0
 cycles: false
@@ -38,8 +43,18 @@ baseurl: "/v108"
 twitter_username: MLResearchPress
 github_username: mlresearch
 markdown: kramdown
+exclude:
+- README.md
+- Gemfile
+- ".gitignore"
+style: pmlr
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-remote-theme
+remote_theme: lawrennd/proceedings
 permalink: "/:title.html"
-github:
+ghub:
   edit: true
   repository: v108
 display:
@@ -51,7 +66,7 @@ display:
 email: ''
 conference:
   name: International Conference on Artificial Intelligence and Statistics
-  url: 
+  url: http://aistats.org/aistats2020/
   location: Online
   dates:
   - 2020-08-26
@@ -61,4 +76,4 @@ analytics:
   google:
     tracking_id: UA-92432422-1
 # Site settings
-# Auto generated from /Users/neil/mlresearch/v108/aistats20.bib
+# Original source:  /Users/neil/mlresearch/bibtex.bib
