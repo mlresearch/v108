@@ -20,14 +20,14 @@ lastpage: 1758
 page: 1748-1758
 order: 1748
 cycles: false
-bibtex_author: Warrington, Andrew and Wood, Frank and Naderiparizi, Saeid
+bibtex_author: Warrington, Andrew and Naderiparizi, Saeid and Wood, Frank
 author:
 - given: Andrew
   family: Warrington
-- given: Frank
-  family: Wood
 - given: Saeid
   family: Naderiparizi
+- given: Frank
+  family: Wood
 date: 2020-06-03
 address: 
 publisher: PMLR
